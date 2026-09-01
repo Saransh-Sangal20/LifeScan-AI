@@ -1,0 +1,522 @@
+[
+  {
+    "predictionId": "LSAI-2026-HR01",
+    "name": "Saransh Sangal",
+    "age": 65,
+    "gender": "M",
+    "contact": "9811234567",
+    "height": 175,
+    "weight": 82,
+    "bmi": 26.8,
+    "features": {
+      "Age": 65,
+      "Sex": "M",
+      "ChestPainType": "ASY",
+      "RestingBP": 150,
+      "Cholesterol": 285,
+      "FastingBS": 1,
+      "RestingECG": "LVH",
+      "MaxHR": 108,
+      "ExerciseAngina": "Y",
+      "Oldpeak": 2.8,
+      "ST_Slope": "Flat"
+    },
+    "prediction": 1,
+    "risk_percentage": 94.8,
+    "risk_category": "High Risk",
+    "createdAt": "2026-09-01T10:30:00.000Z",
+    "clinical_factors": [
+      {
+        "factor": "Advanced Age",
+        "description": "Patient age (65 years) increases cumulative cardiovascular vulnerability.",
+        "severity": "moderate",
+        "icon": "UserCheck"
+      },
+      {
+        "factor": "High Resting Blood Pressure",
+        "description": "Resting BP of 150 mm Hg indicates Stage 2 Hypertension.",
+        "severity": "high",
+        "icon": "Activity"
+      },
+      {
+        "factor": "Elevated Cholesterol Level",
+        "description": "Serum cholesterol of 285 mg/dl elevates atherosclerotic plaque risk.",
+        "severity": "high",
+        "icon": "Droplet"
+      },
+      {
+        "factor": "Exercise-Induced Angina",
+        "description": "Myocardial ischemia during physical exertion.",
+        "severity": "high",
+        "icon": "AlertTriangle"
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "Blood Pressure Management",
+        "title": "Hypertension Control Protocol",
+        "icon": "Activity",
+        "color": "rose",
+        "items": [
+          "Reduce dietary sodium intake (< 2,000 mg/day).",
+          "Daily resting blood pressure monitoring log.",
+          "Consult cardiologist for comprehensive evaluation."
+        ]
+      }
+    ],
+    "ai_summary": "Saransh Sangal's clinical profile indicates an estimated 94.8% risk of heart failure, placing them in the High Risk tier. Immediate specialist consultation with a certified cardiologist is recommended.",
+    "disclaimer": "This prediction is generated using a machine learning model and is intended to assist clinical assessment. It should not replace professional medical judgment."
+  },
+  {
+    "predictionId": "LSAI-2026-HR02",
+    "name": "Saurabh Kashyap",
+    "age": 58,
+    "gender": "M",
+    "contact": "9823456789",
+    "height": 172,
+    "weight": 78,
+    "bmi": 26.4,
+    "features": {
+      "Age": 58,
+      "Sex": "M",
+      "ChestPainType": "ASY",
+      "RestingBP": 145,
+      "Cholesterol": 270,
+      "FastingBS": 1,
+      "RestingECG": "ST",
+      "MaxHR": 115,
+      "ExerciseAngina": "Y",
+      "Oldpeak": 2.2,
+      "ST_Slope": "Flat"
+    },
+    "prediction": 1,
+    "risk_percentage": 88.5,
+    "risk_category": "High Risk",
+    "createdAt": "2026-08-30T11:15:00.000Z",
+    "clinical_factors": [
+      {
+        "factor": "High Resting Blood Pressure",
+        "description": "Resting BP of 145 mm Hg indicates Stage 2 Hypertension.",
+        "severity": "high",
+        "icon": "Activity"
+      },
+      {
+        "factor": "Elevated Cholesterol Level",
+        "description": "Serum cholesterol of 270 mg/dl.",
+        "severity": "high",
+        "icon": "Droplet"
+      },
+      {
+        "factor": "Exercise-Induced Angina",
+        "description": "Chest pain during physical exertion.",
+        "severity": "high",
+        "icon": "AlertTriangle"
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "Cardiology Consultation",
+        "title": "Specialist Review & Workup",
+        "icon": "AlertCircle",
+        "color": "red",
+        "items": [
+          "Consult a certified cardiologist for stress testing.",
+          "Maintain daily blood pressure and heart rate logs.",
+          "Adopt a heart-healthy low-sodium diet."
+        ]
+      }
+    ],
+    "ai_summary": "Saurabh Kashyap's clinical profile indicates an estimated 88.5% risk of heart failure, categorizing them in the High Risk tier.",
+    "disclaimer": "This prediction is generated using a machine learning model and is intended to assist clinical assessment. It should not replace professional medical judgment."
+  },
+  {
+    "predictionId": "LSAI-2026-HR03",
+    "name": "Sandeep Kumar",
+    "age": 62,
+    "gender": "M",
+    "contact": "9834567890",
+    "height": 168,
+    "weight": 75,
+    "bmi": 26.6,
+    "features": {
+      "Age": 62,
+      "Sex": "M",
+      "ChestPainType": "ASY",
+      "RestingBP": 140,
+      "Cholesterol": 260,
+      "FastingBS": 0,
+      "RestingECG": "LVH",
+      "MaxHR": 120,
+      "ExerciseAngina": "Y",
+      "Oldpeak": 1.8,
+      "ST_Slope": "Flat"
+    },
+    "prediction": 1,
+    "risk_percentage": 82.1,
+    "risk_category": "High Risk",
+    "createdAt": "2026-08-28T09:45:00.000Z",
+    "clinical_factors": [
+      {
+        "factor": "Advanced Age",
+        "description": "Age (62 years) increases cardiovascular vulnerability.",
+        "severity": "moderate",
+        "icon": "UserCheck"
+      },
+      {
+        "factor": "High Resting Blood Pressure",
+        "description": "Resting BP of 140 mm Hg.",
+        "severity": "high",
+        "icon": "Activity"
+      },
+      {
+        "factor": "Elevated Cholesterol Level",
+        "description": "Serum cholesterol of 260 mg/dl.",
+        "severity": "high",
+        "icon": "Droplet"
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "Blood Pressure Management",
+        "title": "Hypertension Protocol",
+        "icon": "Activity",
+        "color": "rose",
+        "items": [
+          "Reduce dietary sodium.",
+          "Daily BP monitoring.",
+          "Follow up with cardiologist."
+        ]
+      }
+    ],
+    "ai_summary": "Sandeep Kumar's clinical profile indicates an estimated 82.1% risk of heart failure, placing them in the High Risk tier.",
+    "disclaimer": "This prediction is generated using a machine learning model and is intended to assist clinical assessment. It should not replace professional medical judgment."
+  },
+  {
+    "predictionId": "LSAI-2026-MR01",
+    "name": "Samail Ahmad",
+    "age": 55,
+    "gender": "M",
+    "contact": "9712345678",
+    "height": 170,
+    "weight": 72,
+    "bmi": 24.9,
+    "features": {
+      "Age": 55,
+      "Sex": "M",
+      "ChestPainType": "NAP",
+      "RestingBP": 135,
+      "Cholesterol": 245,
+      "FastingBS": 0,
+      "RestingECG": "ST",
+      "MaxHR": 132,
+      "ExerciseAngina": "N",
+      "Oldpeak": 1.4,
+      "ST_Slope": "Flat"
+    },
+    "prediction": 0,
+    "risk_percentage": 56.4,
+    "risk_category": "Moderate Risk",
+    "createdAt": "2026-08-26T14:20:00.000Z",
+    "clinical_factors": [
+      {
+        "factor": "Elevated Cholesterol Level",
+        "description": "Serum cholesterol of 245 mg/dl.",
+        "severity": "moderate",
+        "icon": "Droplet"
+      },
+      {
+        "factor": "Borderline Blood Pressure",
+        "description": "Resting BP of 135 mm Hg.",
+        "severity": "moderate",
+        "icon": "Activity"
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "Lifestyle Optimization",
+        "title": "Cardiovascular Conditioning",
+        "icon": "Activity",
+        "color": "amber",
+        "items": [
+          "Engage in moderate physical activity 30 mins daily.",
+          "Adopt a low-cholesterol balanced diet.",
+          "Routine health monitoring."
+        ]
+      }
+    ],
+    "ai_summary": "Samail Ahmad's clinical profile indicates an estimated 56.4% risk of heart failure, categorized as Moderate Risk.",
+    "disclaimer": "This prediction is generated using a machine learning model and is intended to assist clinical assessment. It should not replace professional medical judgment."
+  },
+  {
+    "predictionId": "LSAI-2026-MR02",
+    "name": "Rahul Sharma",
+    "age": 50,
+    "gender": "M",
+    "contact": "9723456789",
+    "height": 176,
+    "weight": 74,
+    "bmi": 23.9,
+    "features": {
+      "Age": 50,
+      "Sex": "M",
+      "ChestPainType": "NAP",
+      "RestingBP": 130,
+      "Cholesterol": 230,
+      "FastingBS": 0,
+      "RestingECG": "Normal",
+      "MaxHR": 140,
+      "ExerciseAngina": "N",
+      "Oldpeak": 1.0,
+      "ST_Slope": "Flat"
+    },
+    "prediction": 0,
+    "risk_percentage": 48.2,
+    "risk_category": "Moderate Risk",
+    "createdAt": "2026-08-25T16:00:00.000Z",
+    "clinical_factors": [
+      {
+        "factor": "Elevated Cholesterol Level",
+        "description": "Serum cholesterol of 230 mg/dl.",
+        "severity": "moderate",
+        "icon": "Droplet"
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "Dietary Optimization",
+        "title": "Balanced Nutrition Protocol",
+        "icon": "Droplet",
+        "color": "amber",
+        "items": [
+          "High-fiber diet with reduced saturated fats.",
+          "Regular aerobic walking.",
+          "Annual health checkup."
+        ]
+      }
+    ],
+    "ai_summary": "Rahul Sharma's clinical profile indicates an estimated 48.2% risk of heart failure, placing them in the Moderate Risk category.",
+    "disclaimer": "This prediction is generated using a machine learning model and is intended to assist clinical assessment. It should not replace professional medical judgment."
+  },
+  {
+    "predictionId": "LSAI-2026-MR03",
+    "name": "Priya Verma",
+    "age": 52,
+    "gender": "F",
+    "contact": "9734567890",
+    "height": 162,
+    "weight": 64,
+    "bmi": 24.4,
+    "features": {
+      "Age": 52,
+      "Sex": "F",
+      "ChestPainType": "ATA",
+      "RestingBP": 128,
+      "Cholesterol": 238,
+      "FastingBS": 0,
+      "RestingECG": "Normal",
+      "MaxHR": 145,
+      "ExerciseAngina": "N",
+      "Oldpeak": 0.8,
+      "ST_Slope": "Flat"
+    },
+    "prediction": 0,
+    "risk_percentage": 41.5,
+    "risk_category": "Moderate Risk",
+    "createdAt": "2026-08-22T10:10:00.000Z",
+    "clinical_factors": [
+      {
+        "factor": "Elevated Cholesterol Level",
+        "description": "Serum cholesterol of 238 mg/dl.",
+        "severity": "moderate",
+        "icon": "Droplet"
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "Wellness Guidelines",
+        "title": "Preventive Lifestyle",
+        "icon": "Heart",
+        "color": "amber",
+        "items": [
+          "Low-cholesterol healthy diet.",
+          "Daily 30 minutes walking or yoga.",
+          "Routine periodic screening."
+        ]
+      }
+    ],
+    "ai_summary": "Priya Verma's clinical profile indicates an estimated 41.5% risk of heart failure, categorized as Moderate Risk.",
+    "disclaimer": "This prediction is generated using a machine learning model and is intended to assist clinical assessment. It should not replace professional medical judgment."
+  },
+  {
+    "predictionId": "LSAI-2026-LR01",
+    "name": "Neha Gupta",
+    "age": 45,
+    "gender": "F",
+    "contact": "9112345678",
+    "height": 160,
+    "weight": 58,
+    "bmi": 22.7,
+    "features": {
+      "Age": 45,
+      "Sex": "F",
+      "ChestPainType": "ATA",
+      "RestingBP": 122,
+      "Cholesterol": 205,
+      "FastingBS": 0,
+      "RestingECG": "Normal",
+      "MaxHR": 155,
+      "ExerciseAngina": "N",
+      "Oldpeak": 0.4,
+      "ST_Slope": "Up"
+    },
+    "prediction": 0,
+    "risk_percentage": 18.2,
+    "risk_category": "Low Risk",
+    "createdAt": "2026-08-20T12:30:00.000Z",
+    "clinical_factors": [],
+    "recommendations": [
+      {
+        "category": "Preventive Care",
+        "title": "Routine Wellness",
+        "icon": "Heart",
+        "color": "teal",
+        "items": [
+          "Maintain balanced diet.",
+          "Regular physical activity.",
+          "Annual health checkup."
+        ]
+      }
+    ],
+    "ai_summary": "Neha Gupta's clinical profile indicates an estimated 18.2% risk of heart failure, categorized as Low Risk.",
+    "disclaimer": "This prediction is generated using a machine learning model and is intended to assist clinical assessment. It should not replace professional medical judgment."
+  },
+  {
+    "predictionId": "LSAI-2026-LR02",
+    "name": "Amit Singh",
+    "age": 39,
+    "gender": "M",
+    "contact": "9123456789",
+    "height": 174,
+    "weight": 70,
+    "bmi": 23.1,
+    "features": {
+      "Age": 39,
+      "Sex": "M",
+      "ChestPainType": "ATA",
+      "RestingBP": 118,
+      "Cholesterol": 190,
+      "FastingBS": 0,
+      "RestingECG": "Normal",
+      "MaxHR": 160,
+      "ExerciseAngina": "N",
+      "Oldpeak": 0.0,
+      "ST_Slope": "Up"
+    },
+    "prediction": 0,
+    "risk_percentage": 12.6,
+    "risk_category": "Low Risk",
+    "createdAt": "2026-08-18T15:45:00.000Z",
+    "clinical_factors": [],
+    "recommendations": [
+      {
+        "category": "Preventive Care",
+        "title": "Healthy Living",
+        "icon": "Heart",
+        "color": "teal",
+        "items": [
+          "Continue regular exercise.",
+          "Maintain healthy body weight.",
+          "Balanced nutrition."
+        ]
+      }
+    ],
+    "ai_summary": "Amit Singh's clinical profile indicates an estimated 12.6% risk of heart failure, categorized as Low Risk.",
+    "disclaimer": "This prediction is generated using a machine learning model and is intended to assist clinical assessment. It should not replace professional medical judgment."
+  },
+  {
+    "predictionId": "LSAI-2026-LR03",
+    "name": "Rohit Mehta",
+    "age": 34,
+    "gender": "M",
+    "contact": "9134567890",
+    "height": 178,
+    "weight": 72,
+    "bmi": 22.7,
+    "features": {
+      "Age": 34,
+      "Sex": "M",
+      "ChestPainType": "ATA",
+      "RestingBP": 115,
+      "Cholesterol": 185,
+      "FastingBS": 0,
+      "RestingECG": "Normal",
+      "MaxHR": 168,
+      "ExerciseAngina": "N",
+      "Oldpeak": 0.0,
+      "ST_Slope": "Up"
+    },
+    "prediction": 0,
+    "risk_percentage": 8.4,
+    "risk_category": "Low Risk",
+    "createdAt": "2026-08-15T09:20:00.000Z",
+    "clinical_factors": [],
+    "recommendations": [
+      {
+        "category": "Preventive Care",
+        "title": "Active Lifestyle",
+        "icon": "Heart",
+        "color": "teal",
+        "items": [
+          "Maintain active lifestyle.",
+          "Routine periodic screenings.",
+          "Adequate hydration."
+        ]
+      }
+    ],
+    "ai_summary": "Rohit Mehta's clinical profile indicates an estimated 8.4% risk of heart failure, categorized as Low Risk.",
+    "disclaimer": "This prediction is generated using a machine learning model and is intended to assist clinical assessment. It should not replace professional medical judgment."
+  },
+  {
+    "predictionId": "LSAI-2026-LR04",
+    "name": "Ananya Patel",
+    "age": 29,
+    "gender": "F",
+    "contact": "9145678901",
+    "height": 165,
+    "weight": 55,
+    "bmi": 20.2,
+    "features": {
+      "Age": 29,
+      "Sex": "F",
+      "ChestPainType": "ATA",
+      "RestingBP": 110,
+      "Cholesterol": 175,
+      "FastingBS": 0,
+      "RestingECG": "Normal",
+      "MaxHR": 175,
+      "ExerciseAngina": "N",
+      "Oldpeak": 0.0,
+      "ST_Slope": "Up"
+    },
+    "prediction": 0,
+    "risk_percentage": 4.5,
+    "risk_category": "Low Risk",
+    "createdAt": "2026-08-12T11:00:00.000Z",
+    "clinical_factors": [],
+    "recommendations": [
+      {
+        "category": "Preventive Care",
+        "title": "Optimal Health",
+        "icon": "Heart",
+        "color": "teal",
+        "items": [
+          "Maintain active daily routine.",
+          "Balanced nutrition.",
+          "Annual preventive checkup."
+        ]
+      }
+    ],
+    "ai_summary": "Ananya Patel's clinical profile indicates an estimated 4.5% risk of heart failure, categorized as Low Risk.",
+    "disclaimer": "This prediction is generated using a machine learning model and is intended to assist clinical assessment. It should not replace professional medical judgment."
+  }
+]
